@@ -3,3 +3,4 @@ data/energy_production/final/
 data/installed_capacity/final/
 data/weather/observed_data_2015_2023/final/
 data/final_covariates/
+models/predictions/
