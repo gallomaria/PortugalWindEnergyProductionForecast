@@ -25,6 +25,7 @@ Model selected for the forecasting:
 The models will be evaluated and compared using the following performance metrics: Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
 
 ## Repository Structure
-The [Data folder](./data/) contains the raw data for energy production, installed capacity, and weather conditions. These raw datasets are processed using scripts located in the [data_preparation folder](./data_preparation/), which includes four distinct scripts: three dedicated to processing each data type individually and a fourth for assembling the final dataset structure.
+The [data folder](./data/) contains the raw data for energy production, installed capacity, and weather conditions. These raw datasets are processed using scripts located in the [data_preparation folder](./data_preparation/), which includes four distinct scripts: three dedicated to processing each data type individually and a fourth for assembling the final dataset structure.
+The third folder, [models](./models/), serves multiple purposes: initially, it is used for a brief data exploration phase. Then, it focuses on model estimation, including specialized cross-validation procedures for models such as Prophet, RNN, GRU, and LSTM. Finally, it is dedicated to the evaluation of the models results.
 
 ## Prerequisites
