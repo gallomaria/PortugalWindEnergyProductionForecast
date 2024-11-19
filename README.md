@@ -4,7 +4,7 @@
 1. [Introduction](#Introduction)
 2. [The Data](#The-Data)
 3. [The Models](#The-Models)
-
+4. [Repository Structure](#Repository-Stucture)
 
 
 ## Introduction
@@ -23,4 +23,8 @@ Model selected for the forecasting:
 - LSTM
 
 The models will be evaluated and compared using the following performance metrics: Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
-### Prerequisites
+
+## Repository Structure
+The [Data folder](./data/) contains the raw data for energy production, installed capacity, and weather conditions. These raw datasets are processed using scripts located in the [data_preparation folder](./data_preparation/), which includes four distinct scripts: three dedicated to processing each data type individually and a fourth for assembling the final dataset structure.
+
+## Prerequisites
