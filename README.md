@@ -31,6 +31,13 @@ The third folder, [models](./models/), serves multiple purposes: initially, it i
 ## Prerequisites
 ### Python
 - Python 3.12.7
+- keras 3.6.0
+- neuralprophet 0.8.0
+- numpy 3.1
+- pandas 2.2.3
+- scikeras 0.13.0
+- scikit-learn 1.5.2
+
 ### R
 - R 4.2.1
 - dplyr 1.0.10.
