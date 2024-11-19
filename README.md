@@ -30,8 +30,7 @@ The third folder, [models](./models/), serves multiple purposes: initially, it i
 
 ## Prerequisites
 - Python 3.12.7
-
-- R 4.2.1
+### - R 4.2.1
 - dplyr 1.0.10.
 - forecast 8.19
 - fs 1.5.2
