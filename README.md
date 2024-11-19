@@ -5,7 +5,7 @@
 2. [The Data](#The-Data)
 3. [The Models](#The-Models)
 4. [Repository Structure](#Repository-Structure)
-
+5. [Prerequisites](#Prerequisites)
 
 ## Introduction
 The global energy landscape is complex and constantly evolving, includng the production, distribution, and use of energy resources. Energy is essential for industry, transportation, and daily life, with sources divided into renewable (inexhaustible) and non-renewable (finite) categories. Renewable sources like solar and wind have gained significant attention, but their production is affected by variable weather conditions, for this reason making accurate forecasting is crucial for optimal resource management. This study focuses on comparing different forecasting models to predict wind energy production in Portugal. By evaluating these models using meteorological data and installed energy capacity, the goal is to identify the most accurate approach for forecasting energy from wind sources.
@@ -22,10 +22,11 @@ Model selected for the forecasting:
 - GRU
 - LSTM
 
-The models will be evaluated and compared using the following performance metrics: Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
+The models are then evaluated and compared using the following performance metrics: Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
 
 ## Repository Structure
 The [data folder](./data/) contains the raw data for energy production, installed capacity, and weather conditions. These raw datasets are processed using scripts located in the [data_preparation folder](./data_preparation/), which includes four distinct scripts: three dedicated to processing each data type individually and a fourth for assembling the final dataset structure.
 The third folder, [models](./models/), serves multiple purposes: initially, it is used for a brief data exploration phase. Then, it focuses on model estimation, including specialized cross-validation procedures for models such as Prophet, RNN, GRU, and LSTM. Finally, it is dedicated to the evaluation of the models results.
 
 ## Prerequisites
+- Python 3.12.7
