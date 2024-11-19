@@ -4,7 +4,7 @@
 1. [Introduction](#Introduction)
 2. [The Data](#The-Data)
 3. [The Models](#The-Models)
-4. [Repository Structure](#Repository-Stucture)
+4. [Repository Structure](#Repository-Structure)
 
 
 ## Introduction
