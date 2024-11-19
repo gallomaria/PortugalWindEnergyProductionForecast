@@ -29,8 +29,10 @@ The [data folder](./data/) contains the raw data for energy production, installe
 The third folder, [models](./models/), serves multiple purposes: initially, it is used for a brief data exploration phase. Then, it focuses on model estimation, including specialized cross-validation procedures for models such as Prophet, RNN, GRU, and LSTM. Finally, it is dedicated to the evaluation of the models results.
 
 ## Prerequisites
+### Python
 - Python 3.12.7
-### - R 4.2.1
+### R
+- R 4.2.1
 - dplyr 1.0.10.
 - forecast 8.19
 - fs 1.5.2
