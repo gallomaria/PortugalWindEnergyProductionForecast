@@ -22,4 +22,5 @@ Model selected for the forecasting:
 - GRU
 - LSTM
 
+The models will be evaluated and compared using the following performance metrics: Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE).
 ### Prerequisites
