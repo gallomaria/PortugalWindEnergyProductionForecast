@@ -5,3 +5,6 @@ data/weather/observed_data_2015_2023/final/
 data/final_covariates/
 models/predictions/
 models/lightning_logs/
+.npm/
+.local/
+.jupyter/
