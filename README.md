@@ -40,7 +40,7 @@ The third folder, [models](./models/), serves multiple purposes: initially, it i
 
 ### R
 - R 4.2.1
-- dplyr 1.0.10.
+- dplyr 1.0.10
 - forecast 8.19
 - fs 1.5.2
 - ggplot2 3.3.6
