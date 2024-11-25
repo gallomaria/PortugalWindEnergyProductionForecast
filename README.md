@@ -5,7 +5,7 @@
 2. [The Data](#The-Data)
 3. [The Models](#The-Models)
 4. [Repository Structure](#Repository-Structure)
-5. [Prerequisites](#Prerequisites)
+5. [Requirements](#Requirements)
 
 ## Introduction
 The global energy landscape is complex and constantly evolving, includng the production, distribution, and use of energy resources. Energy is essential for industry, transportation, and daily life, with sources divided into renewable (inexhaustible) and non-renewable (finite) categories. Renewable sources like solar and wind have gained significant attention, but their production is affected by variable weather conditions, for this reason making accurate forecasting is crucial for optimal resource management. This study focuses on comparing different forecasting models to predict wind energy production in Portugal. By evaluating these models using meteorological data and installed energy capacity, the goal is to identify the most accurate approach for forecasting energy from wind sources.
@@ -28,7 +28,7 @@ The models are then evaluated and compared using the following performance metri
 The [data folder](./data/) contains the raw data for energy production, installed capacity, and weather conditions. These raw datasets are processed using scripts located in the [data_preparation folder](./data_preparation/), which includes four distinct scripts: three dedicated to processing each data type individually and a fourth for assembling the final dataset structure.
 The third folder, [models](./models/), serves multiple purposes: initially, it is used for a brief data exploration phase. Then, it focuses on model estimation, including specialized cross-validation procedures for models such as Prophet, RNN, GRU, and LSTM. Finally, it is dedicated to the evaluation of the models results.
 
-## Prerequisites
+## Requirements
 ### Python
 - Python 3.12.7
 - keras 3.6.0
@@ -40,7 +40,7 @@ The third folder, [models](./models/), serves multiple purposes: initially, it i
 
 ### R
 - R 4.2.1
-- dplyr 1.0.10.
+- dplyr 1.0.10
 - forecast 8.19
 - fs 1.5.2
 - ggplot2 3.3.6
