@@ -1,7 +1,6 @@
 # image
 FROM jupyter/datascience-notebook:latest
 
-
 # Install system dependencies
 USER root
 RUN apt-get update && apt-get install -y \
