@@ -7,9 +7,6 @@ RUN apt-get update && apt-get install -y \
     r-base \
     && apt-get clean
 
-# Clone the GitHub repository
-RUN git clone https://github.com/gallomaria/PortugalWindEnergyProductionForecast.git /home/jovyan/work/PortugalWindEnergyProductionForecast
-
 # Copy and install R dependencies
 COPY install.R /home/jovyan/work/PortugalWindEnergyProductionForecast/install.R
 RUN Rscript install.R
