@@ -6,13 +6,13 @@ USER root
 RUN apt-get update && apt-get install -y \
     && apt-get clean
 
-# Copy and install R dependencies
-COPY install.R ./install.R
-RUN Rscript install.R
-
 # Copy and install Pyhton dependencies
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
+
+# Copy and install R dependencies
+COPY install.R ./install.R
+RUN Rscript install.R
 
 # Expose the Jupyter Notebook default port
 EXPOSE 8888
