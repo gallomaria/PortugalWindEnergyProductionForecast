@@ -63,5 +63,5 @@ cd PortugalWindEnergyProductionForecast
 ```
 Run the container
 ```
-docker run -v ${PWD}:${PWD}/home/jovyan -p 8888:8888 jupyter-pref:v2
+docker run -v ${PWD}:home/jovyan -p 8888:8888 jupyter-pref:v2
 ```
