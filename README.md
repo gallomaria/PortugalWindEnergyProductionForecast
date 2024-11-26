@@ -37,6 +37,7 @@ The third folder, [models](./models/), serves multiple purposes: initially, it i
 - pandas 2.2.3
 - scikeras 0.13.0
 - scikit-learn 1.5.2
+- tensorflow 2.17.0
 
 ### R
 - R 4.2.1
