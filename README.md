@@ -54,4 +54,6 @@ The third folder, [models](./models/), serves multiple purposes: initially, it i
 
 ## How to Use the Docker Container
 First, clone the project's repository to your local system. Run the following command in your terminal:
+```
 git clone https://github.com/gallomaria/PortugalWindEnergyProductionForecast
+```
