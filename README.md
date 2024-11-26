@@ -6,6 +6,7 @@
 3. [The Models](#The-Models)
 4. [Repository Structure](#Repository-Structure)
 5. [Requirements](#Requirements)
+6. [How to Use the Docker Container] (#How-to-Use-the-Docker-Container)
 
 ## Introduction
 The global energy landscape is complex and constantly evolving, includng the production, distribution, and use of energy resources. Energy is essential for industry, transportation, and daily life, with sources divided into renewable (inexhaustible) and non-renewable (finite) categories. Renewable sources like solar and wind have gained significant attention, but their production is affected by variable weather conditions, for this reason making accurate forecasting is crucial for optimal resource management. This study focuses on comparing different forecasting models to predict wind energy production in Portugal. By evaluating these models using meteorological data and installed energy capacity, the goal is to identify the most accurate approach for forecasting energy from wind sources.
@@ -51,3 +52,6 @@ The third folder, [models](./models/), serves multiple purposes: initially, it i
 - tseries 0.10.52
 - zoo 1.8.11
 
+## How to Use the Docker Container
+First, clone the project's repository to your local system. Run the following command in your terminal:
+git clone https://github.com/gallomaria/PortugalWindEnergyProductionForecast
