@@ -53,7 +53,15 @@ The third folder, [models](./models/), serves multiple purposes: initially, it i
 - zoo 1.8.11
 
 ## How to Use the Docker Container
-First, clone the project's repository to your local system. Run the following command in your terminal:
+Clone the project's repository to your local system:
 ```
 git clone https://github.com/gallomaria/PortugalWindEnergyProductionForecast
+```
+Navigate to the project directory:
+```
+cd PortugalWindEnergyProductionForecast
+```
+Run the container
+```
+docker run -v ${PWD}:${PWD}/home/jovyan -p 8888:8888 jupyter-pref:v2
 ```
