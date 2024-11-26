@@ -4,3 +4,4 @@ numpy==1.26.0
 pandas==2.2.3
 scikeras==0.13.0
 scikit-learn==1.5.2
+tensroflow==2.17.0
