@@ -63,5 +63,6 @@ cd PortugalWindEnergyProductionForecast
 ```
 Run the container
 ```
-docker run -v ${PWD}:home/jovyan -p 8888:8888 jupyter-pref:v2
+docker run -v ${PWD}:/home/jovyan -p 8888:8888 mauiga/jupyter-pref:v2
 ```
+More information about the Docker container can be found in the [Docker](./Docker/) folder.
