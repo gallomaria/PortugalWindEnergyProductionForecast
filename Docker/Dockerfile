@@ -6,7 +6,7 @@ USER root
 RUN apt-get update && apt-get install -y \
     && apt-get clean
 
-# Copy and install Pyhton dependencies
+# Copy and install Python dependencies
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
 
