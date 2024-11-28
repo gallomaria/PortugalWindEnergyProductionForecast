@@ -61,8 +61,8 @@ Navigate to the project directory:
 ```
 cd PortugalWindEnergyProductionForecast
 ```
-Run the container
+Run the container:
 ```
-docker run -v ${PWD}:/home/jovyan -p 8888:8888 mauiga/jupyter-pref:v2
+docker run --platform linux/amd64 -v ${PWD}:/home/jovyan -p 8888:8888 mauiga/jupyter-pref:v2
 ```
 More information about the Docker container can be found in the [Docker](./Docker/) folder.
